@@ -47,3 +47,63 @@ class WorkingHours(models.Model):
             f"{self.get_day_of_week_display()} "
             f"{self.opening_at}-{self.closing_at}"
         )
+
+
+class Court(models.Model):
+    SURFACE_CHOICES = [
+        ("CLAY", "Clay"),
+        ("HARD", "Hard"),
+        ("GRASS", "Grass"),
+        ("OTHER", "Other"),
+    ]
+
+    COURT_TYPE_CHOICES = [
+        ("INDOOR", "Indoor"),
+        ("OUTDOOR", "Outdoor"),
+    ]
+
+    sport_club = models.ForeignKey(
+        SportClub, on_delete=models.CASCADE, related_name="courts"
+    )
+    number = models.PositiveSmallIntegerField()
+    surface = models.CharField(
+        max_length=100,
+        choices=SURFACE_CHOICES,
+    )
+    court_type = models.CharField(
+        max_length=100,
+        choices=COURT_TYPE_CHOICES,
+    )
+
+    class Meta:
+        constraints = [
+            models.UniqueConstraint(
+                fields=["sport_club", "number"], name="unique_court"
+            )
+        ]
+        ordering = ["sport_club", "number"]
+
+    def __str__(self):
+        return f"{self.sport_club.name} court {self.number} ({self.surface})"
+
+
+class Session(models.Model):
+    court = models.ForeignKey(Court, on_delete=models.CASCADE, related_name="sessions")
+    date = models.DateField()
+    start_time = models.TimeField()
+    end_time = models.TimeField()
+    booked = models.BooleanField(default=False)
+
+    class Meta:
+        constraints = [
+            models.UniqueConstraint(
+                fields=["court", "date", "start_time"], name="unique_session"
+            )
+        ]
+        ordering = ["court", "date", "start_time"]
+
+    def __str__(self):
+        return (
+            f"({self.court.sport_club.name} {self.court.number}) "
+            f"{self.date} {self.start_time}-{self.end_time}"
+        )
