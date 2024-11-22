@@ -44,7 +44,7 @@ class SportClubSessionsSerializer(serializers.ModelSerializer):
         sessions_by_date = {}
 
         for court in courts:
-            for session in court.sessions.all():
+            for session in court.filtered_sessions:
                 date = session.date.strftime("%Y-%m-%d")
                 if date not in sessions_by_date:
                     sessions_by_date[date] = {}
