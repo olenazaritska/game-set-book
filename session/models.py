@@ -63,6 +63,11 @@ class Court(models.Model):
         ("OUTDOOR", "Outdoor"),
     ]
 
+    GAME_TYPE_CHOICES = [
+        ("SINGLES", "Singles"),
+        ("DOUBLES", "Doubles"),
+    ]
+
     sport_club = models.ForeignKey(
         SportClub, on_delete=models.CASCADE, related_name="courts"
     )
@@ -74,6 +79,10 @@ class Court(models.Model):
     court_type = models.CharField(
         max_length=100,
         choices=COURT_TYPE_CHOICES,
+    )
+    game_type = models.CharField(
+        max_length=100,
+        choices=GAME_TYPE_CHOICES,
     )
 
     class Meta:
