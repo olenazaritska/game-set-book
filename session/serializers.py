@@ -27,7 +27,7 @@ class SportClubSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = SportClub
-        fields = ("id", "name", "location", "working_hours")
+        fields = ("id", "name", "location", "logo", "working_hours")
 
 
 class SportClubSessionsSerializer(serializers.ModelSerializer):

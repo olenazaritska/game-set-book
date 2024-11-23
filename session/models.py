@@ -4,6 +4,7 @@ from django.db import models
 class SportClub(models.Model):
     name = models.CharField(max_length=100)
     location = models.CharField(max_length=250)
+    logo = models.ImageField(upload_to="sport_clubs/", blank=True, null=True)
 
     class Meta:
         constraints = [
