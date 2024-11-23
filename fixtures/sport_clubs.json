@@ -1,0 +1,56 @@
+[
+    {
+        "model": "session.sportclub",
+        "pk": 1,
+        "fields": {
+            "name": "Dynamo",
+            "location": "Yaneva, 10",
+            "logo": "sport_clubs/dynamo.png"
+        }
+    },
+    {
+        "model": "session.sportclub",
+        "pk": 2,
+        "fields": {
+            "name": "Eurosport",
+            "location": "Petrushevycha, 1",
+            "logo": "sport_clubs/eurosport.png"
+        }
+    },
+    {
+        "model": "session.sportclub",
+        "pk": 3,
+        "fields": {
+            "name": "Leosport",
+            "location": "Melnyka, 18",
+            "logo": "sport_clubs/leosport.png"
+        }
+    },
+    {
+        "model": "session.sportclub",
+        "pk": 4,
+        "fields": {
+            "name": "Pivdennyi",
+            "location": "Shchyretska, 36",
+            "logo": "sport_clubs/pivdennyi.png"
+        }
+    },
+    {
+        "model": "session.sportclub",
+        "pk": 5,
+        "fields": {
+            "name": "San Team",
+            "location": "Hrabovskoho, 11",
+            "logo": "sport_clubs/san_team.png"
+        }
+    },
+    {
+        "model": "session.sportclub",
+        "pk": 6,
+        "fields": {
+            "name": "Vro",
+            "location": "Lyzhviarska, 40a",
+            "logo": "sport_clubs/vro.png"
+        }
+    }
+]

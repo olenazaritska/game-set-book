@@ -1,0 +1,252 @@
+[
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 1,
+            "number": 1,
+            "surface": "CLAY",
+            "court_type": "OUTDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 1,
+            "number": 2,
+            "surface": "CLAY",
+            "court_type": "OUTDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 1,
+            "number": 3,
+            "surface": "CLAY",
+            "court_type": "OUTDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 1,
+            "number": 4,
+            "surface": "CLAY",
+            "court_type": "OUTDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 1,
+            "number": 5,
+            "surface": "CLAY",
+            "court_type": "OUTDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 2,
+            "number": 1,
+            "surface": "CLAY",
+            "court_type": "OUTDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 2,
+            "number": 2,
+            "surface": "CLAY",
+            "court_type": "OUTDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 2,
+            "number": 3,
+            "surface": "CLAY",
+            "court_type": "OUTDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 2,
+            "number": 4,
+            "surface": "CLAY",
+            "court_type": "INDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 2,
+            "number": 5,
+            "surface": "CLAY",
+            "court_type": "INDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 3,
+            "number": 1,
+            "surface": "HARD",
+            "court_type": "INDOOR",
+            "game_type": "SINGLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 3,
+            "number": 2,
+            "surface": "HARD",
+            "court_type": "INDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 3,
+            "number": 3,
+            "surface": "HARD",
+            "court_type": "INDOOR",
+            "game_type": "SINGLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 3,
+            "number": 4,
+            "surface": "HARD",
+            "court_type": "INDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 3,
+            "number": 5,
+            "surface": "HARD",
+            "court_type": "INDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 3,
+            "number": 6,
+            "surface": "HARD",
+            "court_type": "INDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 4,
+            "number": 1,
+            "surface": "CLAY",
+            "court_type": "OUTDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 4,
+            "number": 2,
+            "surface": "OTHER",
+            "court_type": "INDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 4,
+            "number": 3,
+            "surface": "HARD",
+            "court_type": "INDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 5,
+            "number": 1,
+            "surface": "CLAY",
+            "court_type": "OUTDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 5,
+            "number": 2,
+            "surface": "CLAY",
+            "court_type": "OUTDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 6,
+            "number": 1,
+            "surface": "CLAY",
+            "court_type": "OUTDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 6,
+            "number": 2,
+            "surface": "CLAY",
+            "court_type": "OUTDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 6,
+            "number": 3,
+            "surface": "CLAY",
+            "court_type": "OUTDOOR",
+            "game_type": "DOUBLES"
+        }
+    },
+    {
+        "model": "session.court",
+        "fields": {
+            "sport_club": 6,
+            "number": 4,
+            "surface": "HARD",
+            "court_type": "OUTDOOR",
+            "game_type": "DOUBLES"
+        }
+    }
+]
