@@ -54,6 +54,7 @@ class SportClubSessionsSerializer(serializers.ModelSerializer):
                     sessions_by_date[date][court_number] = {
                         "surface": court.surface,
                         "court_type": court.court_type,
+                        "game_type": court.game_type,
                         "sessions": [],
                     }
 
